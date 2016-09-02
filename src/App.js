@@ -1,21 +1,27 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Form from './Form';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <div>
+      <article>
+        <section>
+          enjoy life be free
+        </section>
+        <section>
+          隨時可預約，休假不開機
+        </section>
+        <section>
+          即時可候補，取消不用怕
+        </section>
+        <section>
+          專業被看見，職人不委屈
+        </section>
+        <section>
+          專欄主題展，簡單不設限
+        </section>
+      </article>
+      <Form />
+    </div>
+  );
 }
-
-export default App;
